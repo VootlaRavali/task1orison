@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ff3d23;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+header ul.buttons {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+header ul.buttons li {
+    margin: 0 1em;
+    padding: 0.5em 1em;
+    background-color: #fd6565;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header ul.buttons li:hover {
+    background-color: #fba081;
+}
+
+section {
+    margin: 1em;
+    padding: 5em;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+ul {
+    list-style-type:disc ;
+    padding: 0;
+}
+
+li {
+    margin: 0.5em 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: white;
+    background-color: #4CAF50;
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+footer a:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 0 1em;
+    }
+
+    header ul.buttons {
+        flex-direction: column;
+    }
+
+    header ul.buttons li {
+        margin: 0.5em 0;
+    }
+}
